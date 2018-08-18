@@ -1,14 +1,14 @@
 class Hash
-    array =[]
-    idx = 0
-    while idx < arguments.size
-    each {|k, v|
-      if v == arguments[idx]
-        array << k
-      end
-      }
-      idx += 1
+  def keys_of(arguments)
+    # code goes here	    
+    array = []
+    arguments.each do |x|
+      self.each do |k, v|
+        if v == x
+          array << k
+        end
+      end 
     end
     array
-end
-end
+    end
+end 
