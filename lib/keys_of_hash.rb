@@ -1,7 +1,7 @@
 class Hash
   def keys_of(arguments)
     # code goes here	    
-array = []
+    array = []
     arguments.each do |x|
       self.each do |k, v|
         if v == x
@@ -11,4 +11,5 @@ array = []
     end
     array
     end
+    
 end 
