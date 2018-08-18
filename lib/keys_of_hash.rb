@@ -15,3 +15,4 @@ class Hash
   end
 end 
 
+animals.keys_of("Australia", "Panama")
